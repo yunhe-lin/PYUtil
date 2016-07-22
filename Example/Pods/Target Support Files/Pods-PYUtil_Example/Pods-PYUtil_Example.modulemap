@@ -1,0 +1,6 @@
+framework module Pods_PYUtil_Example {
+  umbrella header "Pods-PYUtil_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

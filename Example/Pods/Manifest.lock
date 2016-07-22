@@ -1,0 +1,17 @@
+PODS:
+  - Masonry (1.0.1)
+  - PYUtil (0.1.0):
+    - Masonry (~> 1.0.1)
+
+DEPENDENCIES:
+  - PYUtil (from `../`)
+
+EXTERNAL SOURCES:
+  PYUtil:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  PYUtil: aa67db36143c5532b89a316f62c26bec6cb27713
+
+COCOAPODS: 0.39.0

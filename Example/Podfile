@@ -1,0 +1,5 @@
+use_frameworks!
+
+target 'PYUtil_Example' do
+  pod 'PYUtil', :path => '../'
+end
