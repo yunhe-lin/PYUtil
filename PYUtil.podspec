@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   'PYUtil' => ['PYUtil/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'PYUtil/Classes/**/*.h'
   s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'Masonry', '~> 1.0.1'
 end

@@ -1,8 +1,8 @@
 {
   "name": "PYUtil",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "summary": "PYUtil - yunhe",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/PYUtil",
+  "homepage": "https://github.com/yunhe-lin/PYUtil",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -11,13 +11,14 @@
     "林云鹤": "1367159949@qq.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/PYUtil.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/yunhe-lin/PYUtil.git",
+    "tag": "1.0.1"
   },
   "platforms": {
     "ios": "7.0"
   },
   "source_files": "PYUtil/Classes/**/*",
+  "public_header_files": "PYUtil/Classes/**/*.h",
   "frameworks": [
     "UIKit",
     "MapKit"

@@ -7,6 +7,7 @@
 //
 
 #import "PYAppDelegate.h"
+#import "UIViewController+PYNavigationItem.h"
 
 @implementation PYAppDelegate
 
