@@ -1,16 +1,16 @@
 //
-//  NSString+PYUtil.m
+//  NSString+pyUtil.m
 //  Pods
 //
 //  Created by yunhe.lin on 16/7/26.
 //
 //
 
-#import "NSString+PYUtil.h"
+#import "NSString+pyUtil.h"
 
 @implementation NSString (PYUtil)
 
-- (CGSize)PY_sizeForFont:(UIFont *)font contentSize:(CGSize)size
+- (CGSize)py_sizeForFont:(UIFont *)font contentSize:(CGSize)size
 {
     CGSize titleSize = [self boundingRectWithSize:size
                                           options:NSStringDrawingUsesLineFragmentOrigin
@@ -18,12 +18,12 @@
                                           context:nil].size;
     return titleSize;
 }
-- (CGSize)PY_sizeForFont:(UIFont *)font
+- (CGSize)py_sizeForFont:(UIFont *)font
 {
     return [self sizeWithFont:font];
 }
 
-- (CGSize)PY_sizeForFont:(UIFont *)font contentSize:(CGSize)size lineBreakMode:(NSLineBreakMode)lineBreakMode
+- (CGSize)py_sizeForFont:(UIFont *)font contentSize:(CGSize)size lineBreakMode:(NSLineBreakMode)lineBreakMode
 {
     NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc] init];
     paragraphStyle.lineBreakMode = lineBreakMode;
@@ -36,7 +36,7 @@
                               context:nil].size;
 }
 
-- (BOOL)PY_hasContainStr:(NSString *)str
+- (BOOL)py_hasContainStr:(NSString *)str
 {
     if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0) {
         return [self containsString:str];
@@ -44,7 +44,7 @@
     return [self componentsSeparatedByString:str].count > 0;
 }
 
-- (NSAttributedString *)PY_attributedStringForLineSpace:(CGFloat)lineSpace strFont:(UIFont *)font
+- (NSAttributedString *)py_attributedStringForLineSpace:(CGFloat)lineSpace strFont:(UIFont *)font
 {
     NSMutableParagraphStyle *pragraphStyle = [[NSMutableParagraphStyle alloc] init];
     pragraphStyle.lineSpacing = lineSpace;

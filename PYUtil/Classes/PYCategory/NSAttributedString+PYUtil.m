@@ -10,7 +10,7 @@
 
 @implementation NSAttributedString (PYUtil)
 
-- (CGSize)PY_attributedStringRectForContentSize:(CGSize)contentSize
+- (CGSize)py_attributedStringRectForContentSize:(CGSize)contentSize
 {
     NSStringDrawingOptions options =  NSStringDrawingUsesLineFragmentOrigin |NSStringDrawingUsesFontLeading;
     return [self boundingRectWithSize:contentSize
@@ -18,7 +18,7 @@
                               context:nil].size;
 }
 
-+ (NSAttributedString *)PY_attributedStringForSpace:(NSInteger)length
++ (NSAttributedString *)py_attributedStringForSpace:(NSInteger)length
 {
     NSMutableString *mutableString = [[NSMutableString alloc] initWithCapacity:length];
     for (NSInteger idx = 0; idx < length; idx++) {

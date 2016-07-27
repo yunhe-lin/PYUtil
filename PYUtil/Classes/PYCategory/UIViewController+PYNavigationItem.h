@@ -1,5 +1,5 @@
 //
-//  UIViewController+PYNavigationItem.h
+//  UIViewController+pyNavigationItem.h
 //  bz17
 //
 //  Created by yunhe.lin on 16/7/22.
@@ -15,7 +15,7 @@
  *
  *  @param title
  */
-- (void)PY_addTitle:(NSString *)title;
+- (void)py_addTitle:(NSString *)title;
 
 /*!
  *  添加左侧按钮
@@ -25,20 +25,20 @@
  *  @param os
  *  @param sel
  */
-- (void)PY_addLeftNavigationItem:(UIImage *)iconImage title:(NSString *)title observer:(id)os action:(SEL)sel;
+- (void)py_addLeftNavigationItem:(UIImage *)iconImage title:(NSString *)title observer:(id)os action:(SEL)sel;
 
 /*!
  *  设置按钮的字体颜色
  *
  *  @param color 字体颜色
  */
-- (void)PY_setNavigationItemTitleColor:(UIColor *)color;
+- (void)py_setNavigationItemTitleColor:(UIColor *)color;
 
 /*!
  *  设置按钮字体的font
  *
  *  @param font
  */
-- (void)PY_setNavigationItemTitleFont:(UIFont *)font;
+- (void)py_setNavigationItemTitleFont:(UIFont *)font;
 
 @end

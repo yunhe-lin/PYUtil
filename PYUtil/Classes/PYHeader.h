@@ -9,9 +9,7 @@
 #ifndef PYHeader_h
 #define PYHeader_h
 
-#import "UIViewController+PYNavigationItem.h"
-#import "NSString+PYUtil.h"
-#import "NSAttributedString+PYUtil.h"
+#import "PYCategoryHeader.h"
 
 #import "PYDateFormatterHelper.h"
 

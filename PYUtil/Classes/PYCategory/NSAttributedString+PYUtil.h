@@ -17,7 +17,7 @@
  *
  *  @return
  */
-- (CGSize)PY_attributedStringRectForContentSize:(CGSize)contentSize;
+- (CGSize)py_attributedStringRectForContentSize:(CGSize)contentSize;
 
 /*!
  *  获取空string 指定长度
@@ -26,6 +26,6 @@
  *
  *  @return
  */
-+ (NSAttributedString *)PY_attributedStringForSpace:(NSInteger)length;
++ (NSAttributedString *)py_attributedStringForSpace:(NSInteger)length;
 
 @end

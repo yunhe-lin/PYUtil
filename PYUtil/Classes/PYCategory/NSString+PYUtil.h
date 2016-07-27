@@ -1,5 +1,5 @@
 //
-//  NSString+PYUtil.h
+//  NSString+pyUtil.h
 //  Pods
 //
 //  Created by yunhe.lin on 16/7/26.
@@ -17,7 +17,7 @@
  *
  *  @return
  */
-- (CGSize)PY_sizeForFont:(UIFont *)font;
+- (CGSize)py_sizeForFont:(UIFont *)font;
 
 /*!
  *  获取指定size小字符串size
@@ -27,7 +27,7 @@
  *
  *  @return 
  */
-- (CGSize)PY_sizeForFont:(UIFont *)font contentSize:(CGSize)size;
+- (CGSize)py_sizeForFont:(UIFont *)font contentSize:(CGSize)size;
 
 /*!
  *  获取指定size小字符串size NSLineBreakMode 条件
@@ -38,7 +38,7 @@
  *
  *  @return
  */
-- (CGSize)PY_sizeForFont:(UIFont *)font contentSize:(CGSize)size lineBreakMode:(NSLineBreakMode)lineBreakMode;
+- (CGSize)py_sizeForFont:(UIFont *)font contentSize:(CGSize)size lineBreakMode:(NSLineBreakMode)lineBreakMode;
 
 /*!
  *  是否包含str 这个字符串
@@ -47,7 +47,7 @@
  *
  *  @return
  */
-- (BOOL)PY_hasContainStr:(NSString *)str;
+- (BOOL)py_hasContainStr:(NSString *)str;
 
 #pragma mark -  获取AttributedString
 
@@ -58,5 +58,5 @@
  *
  *  @return
  */
-- (NSAttributedString *)PY_attributedStringForLineSpace:(CGFloat)lineSpace strFont:(UIFont *)font;
+- (NSAttributedString *)py_attributedStringForLineSpace:(CGFloat)lineSpace strFont:(UIFont *)font;
 @end
