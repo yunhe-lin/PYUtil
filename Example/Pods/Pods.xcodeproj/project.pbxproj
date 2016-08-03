@@ -23,6 +23,17 @@
 		57B36412B5BD74147DB295928B6C0733 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B25FE8DC265E9248284275B868405EF /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D6A8E9F8AFA1DE0D54904720B8E57B8 /* NSAttributedString+PYUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 388663C4DA7A700AC91EB26A0E990255 /* NSAttributedString+PYUtil.m */; };
+		6DD788371D51843B00FCA7B4 /* NSDictionary+PYLogHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DD788351D51843B00FCA7B4 /* NSDictionary+PYLogHelper.h */; };
+		6DD788381D51843B00FCA7B4 /* NSDictionary+PYLogHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD788361D51843B00FCA7B4 /* NSDictionary+PYLogHelper.m */; };
+		6DD788421D5184F500FCA7B4 /* PYCategoryHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DD788391D5184F500FCA7B4 /* PYCategoryHeader.h */; };
+		6DD788431D5184F500FCA7B4 /* UIColor+PYUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DD7883A1D5184F500FCA7B4 /* UIColor+PYUtil.h */; };
+		6DD788441D5184F500FCA7B4 /* UIColor+PYUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD7883B1D5184F500FCA7B4 /* UIColor+PYUtil.m */; };
+		6DD788451D5184F500FCA7B4 /* UIImage+PYUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DD7883C1D5184F500FCA7B4 /* UIImage+PYUtil.h */; };
+		6DD788461D5184F500FCA7B4 /* UIImage+PYUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD7883D1D5184F500FCA7B4 /* UIImage+PYUtil.m */; };
+		6DD788471D5184F500FCA7B4 /* UINavigationBar+PYUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DD7883E1D5184F500FCA7B4 /* UINavigationBar+PYUtil.h */; };
+		6DD788481D5184F500FCA7B4 /* UINavigationBar+PYUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD7883F1D5184F500FCA7B4 /* UINavigationBar+PYUtil.m */; };
+		6DD788491D5184F500FCA7B4 /* UIView+PYUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DD788401D5184F500FCA7B4 /* UIView+PYUtil.h */; };
+		6DD7884A1D5184F500FCA7B4 /* UIView+PYUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD788411D5184F500FCA7B4 /* UIView+PYUtil.m */; };
 		747D181536AE92CD19C540EEA3DF3305 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83FA429634DF5ACFE4355FA4132BCC05 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */; };
 		885A5CDCEC387BEDA008DCCBF6597BF7 /* PYHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 596B3FC279D4395B187B448F6F236CE2 /* PYHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -104,6 +115,17 @@
 		611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
 		61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		61C635FA63B207AC12EA2BD25D894A65 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		6DD788351D51843B00FCA7B4 /* NSDictionary+PYLogHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+PYLogHelper.h"; sourceTree = "<group>"; };
+		6DD788361D51843B00FCA7B4 /* NSDictionary+PYLogHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+PYLogHelper.m"; sourceTree = "<group>"; };
+		6DD788391D5184F500FCA7B4 /* PYCategoryHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYCategoryHeader.h; sourceTree = "<group>"; };
+		6DD7883A1D5184F500FCA7B4 /* UIColor+PYUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PYUtil.h"; sourceTree = "<group>"; };
+		6DD7883B1D5184F500FCA7B4 /* UIColor+PYUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PYUtil.m"; sourceTree = "<group>"; };
+		6DD7883C1D5184F500FCA7B4 /* UIImage+PYUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+PYUtil.h"; sourceTree = "<group>"; };
+		6DD7883D1D5184F500FCA7B4 /* UIImage+PYUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+PYUtil.m"; sourceTree = "<group>"; };
+		6DD7883E1D5184F500FCA7B4 /* UINavigationBar+PYUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+PYUtil.h"; sourceTree = "<group>"; };
+		6DD7883F1D5184F500FCA7B4 /* UINavigationBar+PYUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+PYUtil.m"; sourceTree = "<group>"; };
+		6DD788401D5184F500FCA7B4 /* UIView+PYUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PYUtil.h"; sourceTree = "<group>"; };
+		6DD788411D5184F500FCA7B4 /* UIView+PYUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PYUtil.m"; sourceTree = "<group>"; };
 		6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
 		6E7F5C0025C96B59FE6A4BBE71E26C89 /* UIViewController+PYNavigationItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PYNavigationItem.h"; sourceTree = "<group>"; };
 		730C33713E1E8B2A1282F9F25ACF9457 /* Pods-PYUtil_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PYUtil_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -182,12 +204,23 @@
 		084A34E7D8A4646D3E26513ED24EEA5F /* PYCategory */ = {
 			isa = PBXGroup;
 			children = (
+				6DD788391D5184F500FCA7B4 /* PYCategoryHeader.h */,
+				6DD7883A1D5184F500FCA7B4 /* UIColor+PYUtil.h */,
+				6DD7883B1D5184F500FCA7B4 /* UIColor+PYUtil.m */,
+				6DD7883C1D5184F500FCA7B4 /* UIImage+PYUtil.h */,
+				6DD7883D1D5184F500FCA7B4 /* UIImage+PYUtil.m */,
+				6DD7883E1D5184F500FCA7B4 /* UINavigationBar+PYUtil.h */,
+				6DD7883F1D5184F500FCA7B4 /* UINavigationBar+PYUtil.m */,
+				6DD788401D5184F500FCA7B4 /* UIView+PYUtil.h */,
+				6DD788411D5184F500FCA7B4 /* UIView+PYUtil.m */,
 				9A3E2894D44CF7801A3C82304C7F5829 /* NSAttributedString+PYUtil.h */,
 				388663C4DA7A700AC91EB26A0E990255 /* NSAttributedString+PYUtil.m */,
 				B28583C8DB3A64F6DAAD0C9169B69544 /* NSString+PYUtil.h */,
 				94E2AE0DBD855D8A5D1E7F69D5078536 /* NSString+PYUtil.m */,
 				6E7F5C0025C96B59FE6A4BBE71E26C89 /* UIViewController+PYNavigationItem.h */,
 				190FB8ACC300733E609E283493B2F9FB /* UIViewController+PYNavigationItem.m */,
+				6DD788351D51843B00FCA7B4 /* NSDictionary+PYLogHelper.h */,
+				6DD788361D51843B00FCA7B4 /* NSDictionary+PYLogHelper.m */,
 			);
 			path = PYCategory;
 			sourceTree = "<group>";
@@ -380,9 +413,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DD788421D5184F500FCA7B4 /* PYCategoryHeader.h in Headers */,
+				6DD788451D5184F500FCA7B4 /* UIImage+PYUtil.h in Headers */,
+				6DD788371D51843B00FCA7B4 /* NSDictionary+PYLogHelper.h in Headers */,
+				6DD788431D5184F500FCA7B4 /* UIColor+PYUtil.h in Headers */,
+				6DD788491D5184F500FCA7B4 /* UIView+PYUtil.h in Headers */,
 				886E5DE2BED79770081034DB473AE80C /* NSAttributedString+PYUtil.h in Headers */,
 				FB3018EF15751B02951683490C2047E0 /* NSString+PYUtil.h in Headers */,
 				93BCEEB9BA1001AA3521B32F5E8C2DF6 /* PYDateFormatterHelper.h in Headers */,
+				6DD788471D5184F500FCA7B4 /* UINavigationBar+PYUtil.h in Headers */,
 				885A5CDCEC387BEDA008DCCBF6597BF7 /* PYHeader.h in Headers */,
 				4748836CCA451E68AD41D271C04B6FE3 /* PYUtil-umbrella.h in Headers */,
 				A36BBB45BE915924F9DBA644368ECF4A /* UIViewController+PYNavigationItem.h in Headers */,
@@ -518,10 +557,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DD788381D51843B00FCA7B4 /* NSDictionary+PYLogHelper.m in Sources */,
+				6DD7884A1D5184F500FCA7B4 /* UIView+PYUtil.m in Sources */,
 				5D6A8E9F8AFA1DE0D54904720B8E57B8 /* NSAttributedString+PYUtil.m in Sources */,
+				6DD788481D5184F500FCA7B4 /* UINavigationBar+PYUtil.m in Sources */,
+				6DD788441D5184F500FCA7B4 /* UIColor+PYUtil.m in Sources */,
 				A732F86A14431ED2B7C0CF0CBFEA7498 /* NSString+PYUtil.m in Sources */,
 				07E5929E56F552D54079D5C3A0BDFBC0 /* PYDateFormatterHelper.m in Sources */,
 				920F28902303C431398ADAC596FD0189 /* PYUtil-dummy.m in Sources */,
+				6DD788461D5184F500FCA7B4 /* UIImage+PYUtil.m in Sources */,
 				9319958C3A5E7461A48DAA5C70F952AF /* UIViewController+PYNavigationItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,7 +10,13 @@
 #define PYHeader_h
 
 #import "PYCategoryHeader.h"
-
 #import "PYDateFormatterHelper.h"
+
+//TODO: 宏定义
+#if DEBUG
+#define PYJSONLog(...) NSLog(__VA_ARGS__)
+#else
+#define PYJSONLog(...)
+#endif
 
 #endif /* PYHeader_h */
