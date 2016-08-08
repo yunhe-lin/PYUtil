@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PYUtil'
-  s.version          = '1.0.5'
+  s.version          = '1.0.6'
   s.summary          = 'PYUtil - yunhe'
 
   s.homepage         = 'https://github.com/yunhe-lin/PYUtil'

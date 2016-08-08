@@ -16,5 +16,6 @@
 #import "UIImage+PYUtil.h"
 #import "UINavigationBar+PYUtil.h"
 #import "UIView+PYUtil.h"
+#import "NSDictionary+PYLogHelper.h"
 
 #endif /* PYCategoryHeader_h */

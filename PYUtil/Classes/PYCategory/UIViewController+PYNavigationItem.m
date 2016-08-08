@@ -63,7 +63,7 @@ const static NSString *kTitleColor = @"titleColor";
 
 #pragma mark - public method
 
-- (void)PY_addTitle:(NSString *)title
+- (void)py_addTitle:(NSString *)title
 {
     UIView *v = [UIView new];
     UILabel *lbl = [self titleLabel:title];
@@ -74,7 +74,7 @@ const static NSString *kTitleColor = @"titleColor";
     self.navigationItem.titleView = v;
 }
 
-- (void)PY_addLeftNavigationItem:(UIImage *)iconImage title:(NSString *)title observer:(id)os action:(SEL)sel
+- (void)py_addLeftNavigationItem:(UIImage *)iconImage title:(NSString *)title observer:(id)os action:(SEL)sel
 {
     self.navigationItem.leftBarButtonItems = nil;
     self.navigationItem.leftBarButtonItem = nil;
@@ -90,12 +90,12 @@ const static NSString *kTitleColor = @"titleColor";
     }
 }
 
-- (void)PY_setNavigationItemTitleFont:(UIFont *)font
+- (void)py_setNavigationItemTitleFont:(UIFont *)font
 {
     objc_setAssociatedObject(self, (__bridge const void *)(kFont), font, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
-- (void)PY_setNavigationItemTitleColor:(UIColor *)color
+- (void)py_setNavigationItemTitleColor:(UIColor *)color
 {
     objc_setAssociatedObject(self, (__bridge const void *)(kTitleColor), color, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
